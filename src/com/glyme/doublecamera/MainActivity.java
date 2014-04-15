@@ -156,7 +156,7 @@ public class MainActivity extends Activity {
 				outStream.close();
 
 				Intent intent = new Intent(Intent.ACTION_VIEW);
-				/* ÏŞ¶¨¿ÉÑ¡ÎÄ¼şÀàĞÍ */
+				/* é™å®šå¯é€‰æ–‡ä»¶ç±»å‹ */
 				intent.setDataAndType(Uri.fromFile(new File(fileName)), "image/jpeg");
 				startActivity(intent);
 
